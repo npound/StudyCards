@@ -9,9 +9,76 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //MARK: Properties
 
+    @IBOutlet weak var nametextfield: UITextField!
+    @IBOutlet weak var libButton: UIButton!
+    
+    var indexcardDecks : [IndexCardDeck]?
+    
+    
+    @IBAction func unwindtoMainMenu(_ sender: UIStoryboardSegue) {
+        if let nc = sender.source as? iCardTableViewController
+        {
+    indexcardDecks = nc.indexcardDecks
+    }
+    }
+    
+    
+    fileprivate func loadDecks() -> [IndexCardDeck]?  {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: IndexCardDeck.ArchiveURL) as? [IndexCardDeck]
+    }
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if segue.identifier == "ToLib"  {
+            let nc = segue.destination as! iCardTableViewController
+            if(indexcardDecks != nil)
+            {
+            nc.indexcardDecks = indexcardDecks!
+            }
+            else
+            {
+                
+                nc.indexcardDecks = [IndexCardDeck]()
+            }
+        }
+        
+        if segue.identifier == "ToQuiz"{
+            let nc = segue.destination as! QuizTable
+            if(indexcardDecks != nil)
+            {
+                nc.indexcardDecks = indexcardDecks!
+            }
+            else
+            {
+                
+                nc.indexcardDecks = [IndexCardDeck]()
+            }
+            nc.navigationItem.title = "Choose deck"
+
+            
+
+        }
+        
+    }
+
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if(indexcardDecks == nil)
+        {
+        indexcardDecks = loadDecks()
+        }
+
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9BFBA261E9ADBFC006872CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BFBA251E9ADBFC006872CF /* Main.storyboard */; };
+		C9BFBA281E9ADD5A006872CF /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA271E9ADD5A006872CF /* QuizCell.swift */; };
+		C9BFBA2A1E9ADECF006872CF /* QuizTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA291E9ADECF006872CF /* QuizTable.swift */; };
+		C9BFBA2C1E9AE438006872CF /* QuizDiffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA2B1E9AE438006872CF /* QuizDiffView.swift */; };
+		C9BFBA2E1E9AE5A2006872CF /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA2D1E9AE5A2006872CF /* QuizView.swift */; };
 		C9DE920F1E9689AB008DA323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE920E1E9689AB008DA323 /* AppDelegate.swift */; };
 		C9DE92111E9689AB008DA323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92101E9689AB008DA323 /* ViewController.swift */; };
-		C9DE92141E9689AB008DA323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DE92121E9689AB008DA323 /* Main.storyboard */; };
 		C9DE92161E9689AB008DA323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DE92151E9689AB008DA323 /* Assets.xcassets */; };
 		C9DE92191E9689AB008DA323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DE92171E9689AB008DA323 /* LaunchScreen.storyboard */; };
-		C9DE92241E9689AB008DA323 /* InCardioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92231E9689AB008DA323 /* InCardioTests.swift */; };
-		C9DE922F1E9689AB008DA323 /* InCardioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE922E1E9689AB008DA323 /* InCardioUITests.swift */; };
+		C9DE92441E993799008DA323 /* iCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92431E993799008DA323 /* iCardTableViewCell.swift */; };
+		C9DE92461E9939D5008DA323 /* iCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92451E9939D5008DA323 /* iCardTableViewController.swift */; };
+		C9DE92481E993A9D008DA323 /* IndexCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92471E993A9D008DA323 /* IndexCard.swift */; };
+		C9DE924A1E993C3A008DA323 /* IndexCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92491E993C3A008DA323 /* IndexCardDeck.swift */; };
+		C9DE924C1E994EBD008DA323 /* NewDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE924B1E994EBD008DA323 /* NewDeckViewController.swift */; };
+		C9DE924E1E99C4BA008DA323 /* indexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE924D1E99C4BA008DA323 /* indexTableViewController.swift */; };
+		C9DE92501E99C4EB008DA323 /* indexTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE924F1E99C4EB008DA323 /* indexTableViewCell.swift */; };
+		C9DE92531E99C9BD008DA323 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92521E99C9BD008DA323 /* NewCardViewController.swift */; };
+		C9DE92551E99E15A008DA323 /* IndexCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92541E99E15A008DA323 /* IndexCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9BFBA251E9ADBFC006872CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C9BFBA271E9ADD5A006872CF /* QuizCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
+		C9BFBA291E9ADECF006872CF /* QuizTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTable.swift; sourceTree = "<group>"; };
+		C9BFBA2B1E9AE438006872CF /* QuizDiffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizDiffView.swift; sourceTree = "<group>"; };
+		C9BFBA2D1E9AE5A2006872CF /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		C9DE920B1E9689AB008DA323 /* InCardio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InCardio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE920E1E9689AB008DA323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9DE92101E9689AB008DA323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9DE92131E9689AB008DA323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9DE92101E9689AB008DA323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = InCardio/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		C9DE92151E9689AB008DA323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DE92181E9689AB008DA323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DE921A1E9689AB008DA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DE921F1E9689AB008DA323 /* InCardioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCardioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DE92231E9689AB008DA323 /* InCardioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCardioTests.swift; sourceTree = "<group>"; };
-		C9DE92251E9689AB008DA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DE922A1E9689AB008DA323 /* InCardioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCardioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DE922E1E9689AB008DA323 /* InCardioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCardioUITests.swift; sourceTree = "<group>"; };
-		C9DE92301E9689AB008DA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DE92431E993799008DA323 /* iCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCardTableViewCell.swift; sourceTree = "<group>"; };
+		C9DE92451E9939D5008DA323 /* iCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCardTableViewController.swift; sourceTree = "<group>"; };
+		C9DE92471E993A9D008DA323 /* IndexCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCard.swift; sourceTree = "<group>"; };
+		C9DE92491E993C3A008DA323 /* IndexCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCardDeck.swift; sourceTree = "<group>"; };
+		C9DE924B1E994EBD008DA323 /* NewDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDeckViewController.swift; sourceTree = "<group>"; };
+		C9DE924D1E99C4BA008DA323 /* indexTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indexTableViewController.swift; sourceTree = "<group>"; };
+		C9DE924F1E99C4EB008DA323 /* indexTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indexTableViewCell.swift; sourceTree = "<group>"; };
+		C9DE92521E99C9BD008DA323 /* NewCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
+		C9DE92541E99E15A008DA323 /* IndexCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				C9DE920D1E9689AB008DA323 /* InCardio */,
-				C9DE92221E9689AB008DA323 /* InCardioTests */,
-				C9DE922D1E9689AB008DA323 /* InCardioUITests */,
 				C9DE920C1E9689AB008DA323 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +116,34 @@
 			isa = PBXGroup;
 			children = (
 				C9DE920E1E9689AB008DA323 /* AppDelegate.swift */,
-				C9DE92101E9689AB008DA323 /* ViewController.swift */,
-				C9DE92121E9689AB008DA323 /* Main.storyboard */,
+				C9BFBA251E9ADBFC006872CF /* Main.storyboard */,
+				C9DE92511E99C51A008DA323 /* View Controllers */,
+				C9DE92491E993C3A008DA323 /* IndexCardDeck.swift */,
 				C9DE92151E9689AB008DA323 /* Assets.xcassets */,
 				C9DE92171E9689AB008DA323 /* LaunchScreen.storyboard */,
 				C9DE921A1E9689AB008DA323 /* Info.plist */,
+				C9DE92471E993A9D008DA323 /* IndexCard.swift */,
 			);
 			path = InCardio;
 			sourceTree = "<group>";
 		};
-		C9DE92221E9689AB008DA323 /* InCardioTests */ = {
+		C9DE92511E99C51A008DA323 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C9DE92231E9689AB008DA323 /* InCardioTests.swift */,
-				C9DE92251E9689AB008DA323 /* Info.plist */,
+				C9DE92431E993799008DA323 /* iCardTableViewCell.swift */,
+				C9DE92451E9939D5008DA323 /* iCardTableViewController.swift */,
+				C9DE924D1E99C4BA008DA323 /* indexTableViewController.swift */,
+				C9DE924F1E99C4EB008DA323 /* indexTableViewCell.swift */,
+				C9DE92101E9689AB008DA323 /* ViewController.swift */,
+				C9DE924B1E994EBD008DA323 /* NewDeckViewController.swift */,
+				C9DE92521E99C9BD008DA323 /* NewCardViewController.swift */,
+				C9DE92541E99E15A008DA323 /* IndexCardViewController.swift */,
+				C9BFBA271E9ADD5A006872CF /* QuizCell.swift */,
+				C9BFBA291E9ADECF006872CF /* QuizTable.swift */,
+				C9BFBA2D1E9AE5A2006872CF /* QuizView.swift */,
+				C9BFBA2B1E9AE438006872CF /* QuizDiffView.swift */,
 			);
-			path = InCardioTests;
-			sourceTree = "<group>";
-		};
-		C9DE922D1E9689AB008DA323 /* InCardioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C9DE922E1E9689AB008DA323 /* InCardioUITests.swift */,
-				C9DE92301E9689AB008DA323 /* Info.plist */,
-			);
-			path = InCardioUITests;
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,25 +208,29 @@
 		C9DE92031E9689AB008DA323 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Nicholas Pound";
 				TargetAttributes = {
 					C9DE920A1E9689AB008DA323 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					C9DE921E1E9689AB008DA323 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = C9DE920A1E9689AB008DA323;
 					};
 					C9DE92291E9689AB008DA323 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = C9DE920A1E9689AB008DA323;
 					};
 				};
 			};
 			buildConfigurationList = C9DE92061E9689AB008DA323 /* Build configuration list for PBXProject "InCardio" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,9 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BFBA261E9ADBFC006872CF /* Main.storyboard in Resources */,
 				C9DE92191E9689AB008DA323 /* LaunchScreen.storyboard in Resources */,
 				C9DE92161E9689AB008DA323 /* Assets.xcassets in Resources */,
-				C9DE92141E9689AB008DA323 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DE924E1E99C4BA008DA323 /* indexTableViewController.swift in Sources */,
 				C9DE92111E9689AB008DA323 /* ViewController.swift in Sources */,
+				C9BFBA2E1E9AE5A2006872CF /* QuizView.swift in Sources */,
+				C9BFBA2C1E9AE438006872CF /* QuizDiffView.swift in Sources */,
+				C9DE924C1E994EBD008DA323 /* NewDeckViewController.swift in Sources */,
+				C9DE92501E99C4EB008DA323 /* indexTableViewCell.swift in Sources */,
+				C9DE92441E993799008DA323 /* iCardTableViewCell.swift in Sources */,
+				C9DE924A1E993C3A008DA323 /* IndexCardDeck.swift in Sources */,
+				C9BFBA281E9ADD5A006872CF /* QuizCell.swift in Sources */,
+				C9DE92531E99C9BD008DA323 /* NewCardViewController.swift in Sources */,
 				C9DE920F1E9689AB008DA323 /* AppDelegate.swift in Sources */,
+				C9DE92481E993A9D008DA323 /* IndexCard.swift in Sources */,
+				C9DE92551E99E15A008DA323 /* IndexCardViewController.swift in Sources */,
+				C9BFBA2A1E9ADECF006872CF /* QuizTable.swift in Sources */,
+				C9DE92461E9939D5008DA323 /* iCardTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DE92241E9689AB008DA323 /* InCardioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DE922F1E9689AB008DA323 /* InCardioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9DE92121E9689AB008DA323 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9DE92131E9689AB008DA323 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9DE92171E9689AB008DA323 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -325,8 +353,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -348,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -369,8 +399,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,9 +418,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -401,6 +434,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,6 +447,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -423,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCardio.app/InCardio";
 			};
 			name = Debug;
@@ -435,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCardio.app/InCardio";
 			};
 			name = Release;
@@ -446,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = InCardio;
 				USES_XCTRUNNER = YES;
 			};
@@ -458,6 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = InCardio;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,6 +523,7 @@
 				C9DE92351E9689AB008DA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DE92361E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +532,7 @@
 				C9DE92381E9689AB008DA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DE92391E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +541,7 @@
 				C9DE923B1E9689AB008DA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
