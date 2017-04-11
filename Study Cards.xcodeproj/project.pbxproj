@@ -25,24 +25,8 @@
 		C9DE92501E99C4EB008DA323 /* indexTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE924F1E99C4EB008DA323 /* indexTableViewCell.swift */; };
 		C9DE92531E99C9BD008DA323 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92521E99C9BD008DA323 /* NewCardViewController.swift */; };
 		C9DE92551E99E15A008DA323 /* IndexCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE92541E99E15A008DA323 /* IndexCardViewController.swift */; };
+		C9EAFA541E9C324B00536ECD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EAFA531E9C324B00536ECD /* iAd.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C9DE92201E9689AB008DA323 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9DE92031E9689AB008DA323 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9DE920A1E9689AB008DA323;
-			remoteInfo = InCardio;
-		};
-		C9DE922B1E9689AB008DA323 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9DE92031E9689AB008DA323 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9DE920A1E9689AB008DA323;
-			remoteInfo = InCardio;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C9BFBA251E9ADBFC006872CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -50,14 +34,11 @@
 		C9BFBA291E9ADECF006872CF /* QuizTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTable.swift; sourceTree = "<group>"; };
 		C9BFBA2B1E9AE438006872CF /* QuizDiffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizDiffView.swift; sourceTree = "<group>"; };
 		C9BFBA2D1E9AE5A2006872CF /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		C9DE920B1E9689AB008DA323 /* InCardio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InCardio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE920E1E9689AB008DA323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DE92101E9689AB008DA323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = InCardio/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		C9DE92151E9689AB008DA323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DE92181E9689AB008DA323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DE921A1E9689AB008DA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9DE921F1E9689AB008DA323 /* InCardioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCardioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DE922A1E9689AB008DA323 /* InCardioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCardioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE92431E993799008DA323 /* iCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCardTableViewCell.swift; sourceTree = "<group>"; };
 		C9DE92451E9939D5008DA323 /* iCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCardTableViewController.swift; sourceTree = "<group>"; };
 		C9DE92471E993A9D008DA323 /* IndexCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCard.swift; sourceTree = "<group>"; };
@@ -67,6 +48,8 @@
 		C9DE924F1E99C4EB008DA323 /* indexTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indexTableViewCell.swift; sourceTree = "<group>"; };
 		C9DE92521E99C9BD008DA323 /* NewCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
 		C9DE92541E99E15A008DA323 /* IndexCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCardViewController.swift; sourceTree = "<group>"; };
+		C9EAFA4F1E9C302500536ECD /* Study Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EAFA531E9C324B00536ECD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,20 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DE921C1E9689AB008DA323 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DE92271E9689AB008DA323 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C9EAFA541E9C324B00536ECD /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,22 +67,13 @@
 		C9DE92021E9689AB008DA323 = {
 			isa = PBXGroup;
 			children = (
-				C9DE920D1E9689AB008DA323 /* InCardio */,
-				C9DE920C1E9689AB008DA323 /* Products */,
+				C9DE920D1E9689AB008DA323 /* Study Cards */,
+				C9EAFA4F1E9C302500536ECD /* Study Cards.app */,
+				C9EAFA521E9C324B00536ECD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C9DE920C1E9689AB008DA323 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C9DE920B1E9689AB008DA323 /* InCardio.app */,
-				C9DE921F1E9689AB008DA323 /* InCardioTests.xctest */,
-				C9DE922A1E9689AB008DA323 /* InCardioUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C9DE920D1E9689AB008DA323 /* InCardio */ = {
+		C9DE920D1E9689AB008DA323 /* Study Cards */ = {
 			isa = PBXGroup;
 			children = (
 				C9DE920E1E9689AB008DA323 /* AppDelegate.swift */,
@@ -124,6 +85,7 @@
 				C9DE921A1E9689AB008DA323 /* Info.plist */,
 				C9DE92471E993A9D008DA323 /* IndexCard.swift */,
 			);
+			name = "Study Cards";
 			path = InCardio;
 			sourceTree = "<group>";
 		};
@@ -146,12 +108,20 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		C9EAFA521E9C324B00536ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAFA531E9C324B00536ECD /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9DE920A1E9689AB008DA323 /* InCardio */ = {
+		C9DE920A1E9689AB008DA323 /* Study Cards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DE92331E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardio" */;
+			buildConfigurationList = C9DE92331E9689AB008DA323 /* Build configuration list for PBXNativeTarget "Study Cards" */;
 			buildPhases = (
 				C9DE92071E9689AB008DA323 /* Sources */,
 				C9DE92081E9689AB008DA323 /* Frameworks */,
@@ -161,46 +131,10 @@
 			);
 			dependencies = (
 			);
-			name = InCardio;
+			name = "Study Cards";
 			productName = InCardio;
-			productReference = C9DE920B1E9689AB008DA323 /* InCardio.app */;
+			productReference = C9EAFA4F1E9C302500536ECD /* Study Cards.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C9DE921E1E9689AB008DA323 /* InCardioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9DE92361E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioTests" */;
-			buildPhases = (
-				C9DE921B1E9689AB008DA323 /* Sources */,
-				C9DE921C1E9689AB008DA323 /* Frameworks */,
-				C9DE921D1E9689AB008DA323 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9DE92211E9689AB008DA323 /* PBXTargetDependency */,
-			);
-			name = InCardioTests;
-			productName = InCardioTests;
-			productReference = C9DE921F1E9689AB008DA323 /* InCardioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C9DE92291E9689AB008DA323 /* InCardioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9DE92391E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioUITests" */;
-			buildPhases = (
-				C9DE92261E9689AB008DA323 /* Sources */,
-				C9DE92271E9689AB008DA323 /* Frameworks */,
-				C9DE92281E9689AB008DA323 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9DE922C1E9689AB008DA323 /* PBXTargetDependency */,
-			);
-			name = InCardioUITests;
-			productName = InCardioUITests;
-			productReference = C9DE922A1E9689AB008DA323 /* InCardioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -217,19 +151,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 						LastSwiftMigration = 0830;
 					};
-					C9DE921E1E9689AB008DA323 = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0830;
-						TestTargetID = C9DE920A1E9689AB008DA323;
-					};
-					C9DE92291E9689AB008DA323 = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0830;
-						TestTargetID = C9DE920A1E9689AB008DA323;
-					};
 				};
 			};
-			buildConfigurationList = C9DE92061E9689AB008DA323 /* Build configuration list for PBXProject "InCardio" */;
+			buildConfigurationList = C9DE92061E9689AB008DA323 /* Build configuration list for PBXProject "Study Cards" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,13 +162,11 @@
 				Base,
 			);
 			mainGroup = C9DE92021E9689AB008DA323;
-			productRefGroup = C9DE920C1E9689AB008DA323 /* Products */;
+			productRefGroup = C9DE92021E9689AB008DA323;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9DE920A1E9689AB008DA323 /* InCardio */,
-				C9DE921E1E9689AB008DA323 /* InCardioTests */,
-				C9DE92291E9689AB008DA323 /* InCardioUITests */,
+				C9DE920A1E9689AB008DA323 /* Study Cards */,
 			);
 		};
 /* End PBXProject section */
@@ -257,20 +179,6 @@
 				C9BFBA261E9ADBFC006872CF /* Main.storyboard in Resources */,
 				C9DE92191E9689AB008DA323 /* LaunchScreen.storyboard in Resources */,
 				C9DE92161E9689AB008DA323 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DE921D1E9689AB008DA323 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DE92281E9689AB008DA323 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,34 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DE921B1E9689AB008DA323 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DE92261E9689AB008DA323 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C9DE92211E9689AB008DA323 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9DE920A1E9689AB008DA323 /* InCardio */;
-			targetProxy = C9DE92201E9689AB008DA323 /* PBXContainerItemProxy */;
-		};
-		C9DE922C1E9689AB008DA323 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9DE920A1E9689AB008DA323 /* InCardio */;
-			targetProxy = C9DE922B1E9689AB008DA323 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C9DE92171E9689AB008DA323 /* LaunchScreen.storyboard */ = {
@@ -430,9 +311,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V26XEDSGVR;
 				INFOPLIST_FILE = InCardio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardio;
+				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.StudyCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -443,71 +326,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V26XEDSGVR;
 				INFOPLIST_FILE = InCardio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardio;
+				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.StudyCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		C9DE92371E9689AB008DA323 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = InCardioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCardio.app/InCardio";
-			};
-			name = Debug;
-		};
-		C9DE92381E9689AB008DA323 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = InCardioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCardio.app/InCardio";
-			};
-			name = Release;
-		};
-		C9DE923A1E9689AB008DA323 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = InCardioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = InCardio;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		C9DE923B1E9689AB008DA323 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = InCardioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.InCardioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = InCardio;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9DE92061E9689AB008DA323 /* Build configuration list for PBXProject "InCardio" */ = {
+		C9DE92061E9689AB008DA323 /* Build configuration list for PBXProject "Study Cards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9DE92311E9689AB008DA323 /* Debug */,
@@ -516,29 +349,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DE92331E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardio" */ = {
+		C9DE92331E9689AB008DA323 /* Build configuration list for PBXNativeTarget "Study Cards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9DE92341E9689AB008DA323 /* Debug */,
 				C9DE92351E9689AB008DA323 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9DE92361E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9DE92371E9689AB008DA323 /* Debug */,
-				C9DE92381E9689AB008DA323 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9DE92391E9689AB008DA323 /* Build configuration list for PBXNativeTarget "InCardioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9DE923A1E9689AB008DA323 /* Debug */,
-				C9DE923B1E9689AB008DA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:InCardio.xcodeproj">
+      location = "self:/Users/nicholaspound/Desktop/InCardio/Study Cards.xcodeproj">
    </FileRef>
 </Workspace>

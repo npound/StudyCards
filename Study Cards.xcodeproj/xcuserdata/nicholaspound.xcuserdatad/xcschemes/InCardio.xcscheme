@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9DE920A1E9689AB008DA323"
-               BuildableName = "InCardio.app"
-               BlueprintName = "InCardio"
-               ReferencedContainer = "container:InCardio.xcodeproj">
+               BuildableName = "Study Cards.app"
+               BlueprintName = "Study Cards"
+               ReferencedContainer = "container:Study Cards.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "C9DE921E1E9689AB008DA323"
                BuildableName = "InCardioTests.xctest"
                BlueprintName = "InCardioTests"
-               ReferencedContainer = "container:InCardio.xcodeproj">
+               ReferencedContainer = "container:Study Cards.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "C9DE92291E9689AB008DA323"
                BuildableName = "InCardioUITests.xctest"
                BlueprintName = "InCardioUITests"
-               ReferencedContainer = "container:InCardio.xcodeproj">
+               ReferencedContainer = "container:Study Cards.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DE920A1E9689AB008DA323"
-            BuildableName = "InCardio.app"
-            BlueprintName = "InCardio"
-            ReferencedContainer = "container:InCardio.xcodeproj">
+            BuildableName = "Study Cards.app"
+            BlueprintName = "Study Cards"
+            ReferencedContainer = "container:Study Cards.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DE920A1E9689AB008DA323"
-            BuildableName = "InCardio.app"
-            BlueprintName = "InCardio"
-            ReferencedContainer = "container:InCardio.xcodeproj">
+            BuildableName = "Study Cards.app"
+            BlueprintName = "Study Cards"
+            ReferencedContainer = "container:Study Cards.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DE920A1E9689AB008DA323"
-            BuildableName = "InCardio.app"
-            BlueprintName = "InCardio"
-            ReferencedContainer = "container:InCardio.xcodeproj">
+            BuildableName = "Study Cards.app"
+            BlueprintName = "Study Cards"
+            ReferencedContainer = "container:Study Cards.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

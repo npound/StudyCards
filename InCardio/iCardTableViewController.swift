@@ -55,6 +55,7 @@ class iCardTableViewController: UITableViewController {
     }
     
     
+
     
     
     
@@ -86,6 +87,20 @@ class iCardTableViewController: UITableViewController {
             print("deck successfully saved.")
         } else {
             print("Failed to deck meals...")
+        }
+    }
+    
+        @IBOutlet var UIDeckTableView: UITableView!
+    
+    override func tableView( _ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // Inserting new item to the table
+            UIDeckTableView.beginUpdates()
+            indexcardDecks.remove(at: indexPath.row)
+            UIDeckTableView.deleteRows(at: [indexPath], with: .automatic)
+            UIDeckTableView.endUpdates()
+            
+            SaveDeck()
         }
     }
     

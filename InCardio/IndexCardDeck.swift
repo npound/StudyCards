@@ -18,7 +18,7 @@ class IndexCardDeck :NSObject, NSCoding {
     
     
     
-    static let ArchiveURL = (documentDirectory.path) + ("decks")
+    static let ArchiveURL = (documentDirectory.path) + ("/decks")
 
     
     
