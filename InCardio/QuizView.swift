@@ -21,7 +21,7 @@ class QuizView: UIViewController {
     
     
     @IBAction func option1OnClick(_ sender: UIButton) {
-        if(sender.titleLabel!.text == answer) {
+        if(sender.attributedTitle(for: .normal)?.string == NSAttributedString(string: answer).string) {
             if(lost == false){
                 let points = Int(Points.text!)!+1
                 Points.text = String(points)}
@@ -29,12 +29,15 @@ class QuizView: UIViewController {
         }
         else
         {
-            sender.setTitleColor(UIColor.red, for: .normal)
+            let color = UIColor.red
+            let NScolor :NSDictionary = [NSForegroundColorAttributeName : color]
+            let NSatt = NSAttributedString(string: (sender.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+            sender.setAttributedTitle(NSatt, for: .normal)
             lost = true
         }
     }
     @IBAction func option2OnClick(_ sender: UIButton) {
-        if(sender.titleLabel!.text == answer) {
+        if(sender.attributedTitle(for: .normal)?.string == NSAttributedString(string: answer).string) {
             if(lost == false){
                 let points = Int(Points.text!)!+1
                 Points.text = String(points)}
@@ -42,25 +45,15 @@ class QuizView: UIViewController {
         }
         else
         {
-            sender.setTitleColor(UIColor.red, for: .normal)
+            let color = UIColor.red
+            let NScolor :NSDictionary = [NSForegroundColorAttributeName : color]
+            let NSatt = NSAttributedString(string: (sender.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+            sender.setAttributedTitle(NSatt, for: .normal)
             lost = true
         }
     }
     @IBAction func option3OnClick(_ sender: UIButton) {
-        if(sender.titleLabel!.text == answer) {
-            if(lost == false){
-            let points = Int(Points.text!)!+1
-                Points.text = String(points)}
-            PlayQuiz()
-        }
-        else
-        {
-            sender.setTitleColor(UIColor.red, for: .normal)
-            lost = true
-        }
-    }
-    @IBAction func option4OnClick(_ sender: UIButton) {
-        if(sender.titleLabel!.text == answer) {
+        if(sender.attributedTitle(for: .normal)?.string == NSAttributedString(string: answer).string) {
             if(lost == false){
                 let points = Int(Points.text!)!+1
                 Points.text = String(points)}
@@ -68,7 +61,26 @@ class QuizView: UIViewController {
         }
         else
         {
-            sender.setTitleColor(UIColor.red, for: .normal)
+            let color = UIColor.red
+            let NScolor :NSDictionary = [NSForegroundColorAttributeName : color]
+            let NSatt = NSAttributedString(string: (sender.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+            sender.setAttributedTitle(NSatt, for: .normal)
+            lost = true
+        }
+    }
+    @IBAction func option4OnClick(_ sender: UIButton) {
+        if(sender.attributedTitle(for: .normal)?.string == NSAttributedString(string: answer).string) {
+            if(lost == false){
+                let points = Int(Points.text!)!+1
+                Points.text = String(points)}
+            PlayQuiz()
+        }
+        else
+        {
+            let color = UIColor.red
+            let NScolor :NSDictionary = [NSForegroundColorAttributeName : color]
+            let NSatt = NSAttributedString(string: (sender.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+            sender.setAttributedTitle(NSatt, for: .normal)
             lost = true
         }
     }
@@ -76,11 +88,23 @@ class QuizView: UIViewController {
     
     private func resetcolor()
     {
-        option1.setTitleColor(UIColor.blue, for: .normal)
-        option2.setTitleColor(UIColor.blue, for: .normal)
-        option3.setTitleColor(UIColor.blue, for: .normal)
-        option4.setTitleColor(UIColor.blue, for: .normal)
+        let color = UIColor.black
+        let NScolor :NSDictionary = [NSForegroundColorAttributeName : color]
+        let NSatt = NSAttributedString(string: (option1.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+        option1.setAttributedTitle(NSatt, for: .normal)
+
+        let NSattop2 = NSAttributedString(string: (option2.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+        option2.setAttributedTitle(NSattop2, for: .normal)
         
+
+        let NSattop3 = NSAttributedString(string: (option3.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+        option3.setAttributedTitle(NSattop3, for: .normal)
+        
+        
+        let NSattop4 = NSAttributedString(string: (option4.attributedTitle(for: .normal)?.string)!, attributes: NScolor as? [String : AnyObject])
+        option4.setAttributedTitle(NSattop4, for: .normal)
+
+    
     }
     
     private func allhidden()
@@ -239,12 +263,12 @@ class QuizView: UIViewController {
         while(options.count > 1)
         {
             let choice = arc4random_uniform(UInt32(options.count))
-            if options.count==4 {option4.setTitle(options[Int(choice)], for: .normal)}
-            if options.count==3 {option3.setTitle(options[Int(choice)], for: .normal)}
-            if options.count==2 {option2.setTitle(options[Int(choice)], for: .normal)}
+            if options.count==4 {option4.setAttributedTitle( NSAttributedString(string: options[Int(choice)]), for: .normal)}
+            if options.count==3 {option3.setAttributedTitle( NSAttributedString(string: options[Int(choice)]), for: .normal)}
+            if options.count==2 {option2.setAttributedTitle( NSAttributedString(string: options[Int(choice)]), for: .normal)}
             options.remove(at: Int(choice))
         }
-        option1.setTitle(options[0], for: .normal)
+        option1.setAttributedTitle( NSAttributedString(string: options[0]), for: .normal)
         options.remove(at: 0)
         
     }
@@ -272,6 +296,12 @@ class QuizView: UIViewController {
         gamedeck = deck!
         PlayQuiz()
         Points.text = String(0)
+        
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = #imageLiteral(resourceName: "indexcard.png")
+        backgroundImage.alpha = 0.3
+        backgroundImage.contentMode =  UIViewContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
         
         // Do any additional setup after loading the view, typically from a nib.
     }

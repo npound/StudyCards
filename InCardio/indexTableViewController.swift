@@ -65,10 +65,15 @@ class indexTableViewController: UITableViewController {
             let selectedcell = sender as! indexTableViewCell
             path = tableView.indexPath(for: selectedcell)
             
+            let sendCell = sender as! indexTableViewCell
+            
+            
             ncViewController.keyword = senderCell.keyword!
             ncViewController.phrase = senderCell.phrase!
             ncViewController.master = master
             ncViewController.id = id
+            ncViewController.cardID = sendCell.cardID!
+            ncViewController.count = indexCards.count
         }
         
         else if segue.identifier == "NewCard"{
@@ -77,6 +82,7 @@ class indexTableViewController: UITableViewController {
             }
             ncViewController.master = master
             ncViewController.id = id
+            
         }
     }
     
@@ -155,6 +161,7 @@ class indexTableViewController: UITableViewController {
         cell!.CardKey.text = indexcard.keyword
         cell!.keyword = indexcard.keyword
         cell!.phrase = indexcard.phrase
+        cell!.cardID = indexPath.row
         
         return cell!
     }

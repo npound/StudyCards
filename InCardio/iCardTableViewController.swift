@@ -75,8 +75,7 @@ class iCardTableViewController: UITableViewController {
             ncViewController.navigationItem.title = senderCell.nameLabel.text!
             ncViewController.master = indexcardDecks
         }
-        
-    }
+        }
     
     fileprivate func SaveDeck()
     {

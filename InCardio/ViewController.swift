@@ -77,6 +77,12 @@ class ViewController: UIViewController {
         {
         indexcardDecks = loadDecks()
         }
+        
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = #imageLiteral(resourceName: "indexcard.png")
+        backgroundImage.alpha = 0.3
+        backgroundImage.contentMode =  UIViewContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
 
         
         // Do any additional setup after loading the view, typically from a nib.

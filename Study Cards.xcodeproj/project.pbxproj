@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C99C49511E9D755C00CA542C /* indexcard.png in Resources */ = {isa = PBXBuildFile; fileRef = C99C49501E9D755C00CA542C /* indexcard.png */; };
 		C9BFBA261E9ADBFC006872CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BFBA251E9ADBFC006872CF /* Main.storyboard */; };
 		C9BFBA281E9ADD5A006872CF /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA271E9ADD5A006872CF /* QuizCell.swift */; };
 		C9BFBA2A1E9ADECF006872CF /* QuizTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFBA291E9ADECF006872CF /* QuizTable.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C99C49501E9D755C00CA542C /* indexcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indexcard.png; path = ../../indexcard.png; sourceTree = "<group>"; };
 		C9BFBA251E9ADBFC006872CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C9BFBA271E9ADD5A006872CF /* QuizCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
 		C9BFBA291E9ADECF006872CF /* QuizTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTable.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C99C494F1E9D755000CA542C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C99C49501E9D755C00CA542C /* indexcard.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		C9DE92021E9689AB008DA323 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		C9DE920D1E9689AB008DA323 /* Study Cards */ = {
 			isa = PBXGroup;
 			children = (
+				C99C494F1E9D755000CA542C /* Assets */,
 				C9DE920E1E9689AB008DA323 /* AppDelegate.swift */,
 				C9BFBA251E9ADBFC006872CF /* Main.storyboard */,
 				C9DE92511E99C51A008DA323 /* View Controllers */,
@@ -178,6 +189,7 @@
 			files = (
 				C9BFBA261E9ADBFC006872CF /* Main.storyboard in Resources */,
 				C9DE92191E9689AB008DA323 /* LaunchScreen.storyboard in Resources */,
+				C99C49511E9D755C00CA542C /* indexcard.png in Resources */,
 				C9DE92161E9689AB008DA323 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.StudyCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -333,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NPProgramming.StudyCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -17,6 +17,7 @@ class indexTableViewCell: UITableViewCell {
     @IBOutlet weak var CardKey: UILabel!
     var keyword :  String?
     var phrase: String?
+    var cardID : Int?
     
         
         override func awakeFromNib() {
