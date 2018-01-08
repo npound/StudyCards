@@ -6,10 +6,12 @@
 	<string>UseAppPreferences</string>
 	<key>CustomBuildLocationType</key>
 	<string>RelativeToDerivedData</string>
+	<key>DerivedDataCustomLocation</key>
+	<string>/Users/nicholaspound/Desktop/Studycards</string>
 	<key>DerivedDataLocationStyle</key>
-	<string>Default</string>
+	<string>AbsolutePath</string>
 	<key>IssueFilterStyle</key>
-	<string>ShowActiveSchemeOnly</string>
+	<string>ShowAll</string>
 	<key>LiveSourceIssuesEnabled</key>
 	<true/>
 </dict>
